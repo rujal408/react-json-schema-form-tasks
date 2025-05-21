@@ -5,7 +5,6 @@ export const CustomArrayItemTemplate = (props: ArrayFieldTemplateProps) => {
   return (
     <div>
       {props.items.map((item, index) => {
-
         return (
           <Provider
             key={item.key}

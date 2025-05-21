@@ -1,4 +1,4 @@
-import { createContext, memo, use, useCallback, useContext, useMemo, useState, type ReactNode } from 'react'
+import { createContext, memo, use, useCallback, useMemo, useState, type ReactNode } from 'react'
 
 export const ItemContext = createContext<{
     index: number;
