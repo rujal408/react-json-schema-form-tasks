@@ -108,7 +108,6 @@ const FetchDataForm = () => {
         validator={validator}
         uiSchema={uiSchema}
         widgets={{ AsyncInput, HiddenInput }}
-        fields={{}}
         templates={{
           CustomArrayItemTemplate, // Register the template
         }}
