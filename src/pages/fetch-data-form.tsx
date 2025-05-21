@@ -2,10 +2,10 @@ import Form from "@rjsf/core";
 import Nav from "../components/nav";
 import validator from "@rjsf/validator-ajv8";
 import type { RJSFSchema, UiSchema } from "@rjsf/utils";
-import AsyncInput from "../templates/custom-array-template/widgets/AsyncInput";
 import { useState } from "react";
 import { CustomArrayItemTemplate } from "../templates/custom-array-template";
 import HiddenInput from "../templates/custom-array-template/widgets/hidden-input";
+import AsyncInput from "../templates/custom-array-template/widgets/async-input";
 
 const schema: RJSFSchema = {
   title: "A registration form",
