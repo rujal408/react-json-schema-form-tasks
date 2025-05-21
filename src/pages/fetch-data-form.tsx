@@ -13,6 +13,11 @@ const schema: RJSFSchema = {
   type: "object",
   required: ["userDetails"],
   properties: {
+    description: {
+      type: "string",
+      title: "Description",
+      default: "This is a description.",
+    },
     userDetails: {
       type: "array",
       title: "User Details",

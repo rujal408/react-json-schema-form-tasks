@@ -1,5 +1,6 @@
 import type { ArrayFieldItemTemplateType, RJSFSchema } from "@rjsf/utils";
 import Provider from "./provider";
+import { memo } from "react";
 
 interface IProps {
   index: number;
@@ -22,4 +23,4 @@ const Item: React.FC<IProps> = ({ index, item }) => (
   </Provider>
 );
 
-export default Item;
+export default memo(Item);
