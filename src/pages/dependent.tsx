@@ -1,13 +1,13 @@
 import Form from "@rjsf/core";
 import validator from "@rjsf/validator-ajv8";
 import Nav from "../components/nav";
-import { docUploadSchema } from "../constants/dependent";
+import { docUploadSchema, realExpDocExpSchema } from "../constants/dependent";
 
 const Dependent = () => (
   <div>
     <Nav />
     <Form
-      schema={docUploadSchema}
+      schema={realExpDocExpSchema as any}
       // uiSchema={uiSchema}
       // formData={formData}
       validator={validator}
